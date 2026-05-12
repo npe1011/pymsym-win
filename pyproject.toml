@@ -10,7 +10,6 @@ authors = [
     { name = "Corin Wagen" },
     { name = "Tatsuhiko Yoshino" }
 ]
-]
 
 dependencies = [
     "numpy"
