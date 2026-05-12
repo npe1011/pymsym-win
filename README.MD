@@ -16,8 +16,16 @@ cd /to/your/directory/with_pyproject.toml
 pip install .
 ```
 
-numpy is required.
+Or if git is available, you may be able to directory install from this repository.
+
+`pip install git+https://github.com/npe1011/pymsym-win.git`
+
+`uv add git+https://github.com/npe1011/pymsym-win.git`
+
+numpy is required. I did not check the version dependency of numpy.
 
 ## Cautions
 Only a few tests have been done. Please let me know if you have any problems.
+
+
 This is prepared with the assistance of Gemini.
