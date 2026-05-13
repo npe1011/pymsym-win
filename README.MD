@@ -18,9 +18,16 @@ pip install .
 
 Or if git is available, you may be able to directory install from this repository.
 
-`pip install git+https://github.com/npe1011/pymsym-win.git`
+`python -m pip install git+https://github.com/npe1011/pymsym-win.git`
 
 `uv add git+https://github.com/npe1011/pymsym-win.git`
+
+I also uploaded a wheel file for installation.
+
+`python -m pip install https://github.com/npe1011/pymsym-win/releases/download/0.3.4/pymsym-0.3.4-py3-none-any.whl`
+
+`uv add https://github.com/npe1011/pymsym-win/releases/download/0.3.4/pymsym-0.3.4-py3-none-any.whl`
+
 
 numpy is required. I did not check the version dependency of numpy.
 
